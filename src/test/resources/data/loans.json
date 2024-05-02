@@ -1,0 +1,69 @@
+[
+    {
+        "loanId": 1,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "consumer",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "James Gosling",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6
+        }
+    },
+    {
+        "loanId": 2,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "James Carlos",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 20
+        }
+    },
+    {
+        "loanId": 3,
+        "requestedAmount": 30000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Joan C",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 31
+        }
+    },
+    {
+        "loanId": 4,
+        "requestedAmount": 30000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Joan Junior",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 16
+        }
+    }
+]

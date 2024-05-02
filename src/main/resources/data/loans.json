@@ -1,0 +1,101 @@
+[
+    {
+        "loanId": 1,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "consumer",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "James Gosling",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6
+        }
+    },
+    {
+        "loanId": 2,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "James Carlos",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 20
+        }
+    },
+    {
+        "loanId": 3,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Carlos OLD",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 31
+        }
+    },
+    {
+        "loanId": 4,
+        "requestedAmount": 10000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "student",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Carlos Junior",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6,
+            "age": 15
+        }
+    },
+    {
+        "loanId": 5,
+        "requestedAmount": 30000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "consumer",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Carlos Poor",
+            "annualIncome": "100000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6
+        }
+    },
+    {
+        "loanId": 6,
+        "requestedAmount": 50000,
+        "termYears": 2,
+        "termMonths": 0,
+        "annualInterest": 6,
+        "type": "consumer",
+        "loanOfficerId": 100,
+        "borrower": {
+            "name": "Carlos RICH",
+            "annualIncome": "200000",
+            "delinquentDebt": false,
+            "annualDebt": 3000,
+            "creditHistory": 6
+        }
+    }
+]
