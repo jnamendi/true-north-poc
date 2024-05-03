@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,7 +24,8 @@ public class LoanController {
     
     @Autowired
     private LoanMetricFactory loanMetricFactory;
-    
+
+    @Operation(summary = "Gets loan by id")
     @GetMapping("/{id}")
     public Loan getLoan(@PathVariable Long id) {
         Loan loan = loanMetricFactory.getLoan(id);
@@ -32,7 +34,8 @@ public class LoanController {
         }
         return loan;
     }
-    
+
+    @Operation(summary = "Calculates the loan metric for the given loan id")
     @GetMapping("/{id}/calculate")
     public LoanMetric calculateLoanMetric(@PathVariable Long id) {
         LoanMetric result = new LoanMetric();
@@ -53,7 +56,8 @@ public class LoanController {
         
         return loanMetricCalculator.calculateLoanMetric(loan);
     }
-    
+
+    @Operation(summary = "Gets the max montlhy payment")
     @GetMapping("/max-monthly-payment")
     public Loan getMaxMonthlyPaymentLoan() {
         List<Loan> loans = loanMetricFactory.getAll();

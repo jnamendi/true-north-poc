@@ -40,6 +40,13 @@
 			<artifactId>jackson-core</artifactId>
 			<version>2.17.0</version>
 		</dependency>
+
+		<!-- SWAGGER -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.12</version>
+		</dependency>
 	</dependencies>
 
 	<build>
